@@ -1,0 +1,20 @@
+<section class="instinto full-section">
+  <h3>{{tipo}}</h3>
+  <form action="/{{userid}}/{{id}}/add/instinto" method="post">
+    {{# each preguntas}}
+      <label for="cedula">{{ this.descripcion }}</label>
+      <div class="form-row">
+        <div class="col-1 form-group">
+          <select class="form-control" id="pregunta{{this.idpregunta}}" name="pregunta{{this.idpregunta}}">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+      </div>
+      {{/each}}
+      <button type="submit" class="btn btn-primary">Siguiente</button>
+  </form>
+</section>

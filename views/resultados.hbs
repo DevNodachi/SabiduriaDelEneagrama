@@ -1,0 +1,30 @@
+<section class="insert full-section result">
+  <h1>RESULTADOS:</h1> <i>LA SABIDURA DEL ENEAGRAMA</i>
+</section>
+
+<section class="sentimiento full-section">
+  <h1>Sentimiento</h1>
+  {{# each sentimientos}}
+    <h3>{{this.id}}. {{this.nombre}}</h3>
+    <h5>{{this.descripcion}}</h5>
+    <p><b>Nota:</b> {{this.aviso}}</p>
+    {{/each}}
+</section>
+
+<section class="pensamiento full-section">
+  <h1>Pensamiento</h1>
+  {{# each pensamientos}}
+    <h3>{{this.id}}. {{this.nombre}}</h3>
+    <h5>{{this.descripcion}}</h5>
+    <p><b>Nota:</b> {{this.aviso}}</p>
+    {{/each}}
+</section>
+
+<section class="instinto full-section">
+  <h1>Instinto</h1>
+  {{# each instinto}}
+    <h3>{{this.id}}. {{this.nombre}}</h3>
+    <h5>{{this.descripcion}}</h5>
+    <p><b>Nota:</b> {{this.aviso}}</p>
+    {{/each}}
+</section>
