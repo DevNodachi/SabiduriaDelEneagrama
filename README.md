@@ -3,7 +3,7 @@
 ![alt tag](https://i.imgur.com/Sr6qsU9.png)
 
 * A survey application using **Express.JS** to determine the personality of a person based on the book "La Sabiduria del Eneagrama".
-* Users can be introduced manually (one by one) or automatically using an **API** (many) and **Chance.JS** based on the preferences.
+* Users can be introduced manually or programmatically with the help of the **API** and **Chance.JS** based on the preferences.
 * It can also show an OLAP cube with the data merged from the databases using **Pivot4J**. The OLAP cube must be created using **Schema Workbench**.
 * All the survey data is stored in various databases using a **MySQL-cluster (Docker)**.
 * All the user data is stored in a **MongoDB database**.
